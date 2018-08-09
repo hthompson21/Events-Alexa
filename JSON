@@ -1,0 +1,105 @@
+{
+
+    "interactionModel": {
+
+        "languageModel": {
+
+            "invocationName": "mass mutual events",
+
+            "intents": [
+
+                {
+
+                    "name": "AMAZON.FallbackIntent",
+
+                    "samples": []
+
+                },
+
+                {
+
+                    "name": "AMAZON.CancelIntent",
+
+                    "samples": []
+
+                },
+
+                {
+ 
+                    "name": "AMAZON.HelpIntent",
+
+                    "samples": []
+
+                },
+
+                {
+
+                    "name": "AMAZON.StopIntent",
+
+                    "samples": [
+
+                        "exit",
+
+                        "no thanks",
+
+                        "thank you ",
+
+                        "no ",
+
+                        "thanks"
+
+                    ]
+
+                },
+
+                {
+
+                    "name": "GetTodayEventIntent",
+
+                    "slots": [],
+
+                    "samples": [
+
+                        "events",
+
+                        "mass mutual events ",
+
+                        "events today ",
+                        "today's events",
+
+                        "what events are happening today ",
+
+                        "what's happening today"
+
+                    ]
+
+                },
+
+                {
+
+                    "name": "GetTomorrowIntent",
+
+                    "slots": [],
+
+                    "samples": [
+
+                        "what's happening tomorrow",
+
+                        "what events are happening tomorrow",
+
+                        "tomorrow's events",
+
+                        "events tomorrow"
+
+                    ]
+
+                }
+
+            ],
+
+            "types": []
+        }
+
+    }
+
+}
